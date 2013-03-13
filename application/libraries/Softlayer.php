@@ -5,8 +5,8 @@ require_once APPPATH."third_party/SoftLayer/XmlrpcClient.class.php";
 class CI_Softlayer extends Softlayer_XmlrpcClient
 {
 
-	private $userName = 'jowy';
-	private $apiKey = 'e3c3dd15ffc190d4727ecf7b1a2aacb5149b0ced139a2dfad43218338b6aa0f0';
+	private $userName = 'your-api-username';
+	private $apiKey = 'your-api-key';
 
 	private $ns1 = 'ns1.nanomit.es';
 	private $ns2 = 'ns2.nanomit.es';
